@@ -1,0 +1,71 @@
+.section_1 {
+  background-image: url(./Images/photo-1515256722043-0f2b082ddadc.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  width: 100vw;
+}
+.section_1_overlay {
+  background-color: rgba(0, 0, 0, 0.325);
+  height: 85vh;
+  width: 100vw;
+}
+.Remove_BG {
+  mix-blend-mode: hard-light;
+}
+.Text {
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  width: 45vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  width: 30%;
+  margin: 10px;
+}
+input {
+  text-align: center;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: gold;
+  padding: 5px 20px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: goldenrod;
+  transition: 0.5s;
+}
+body {
+  background: #5a3f37; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c7744,
+    #5a3f37
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c7744,
+    #5a3f37
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
